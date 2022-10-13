@@ -42,3 +42,10 @@
         width: $container-xxl;
     }
 }
+
+/*XXX-LARGE*/
+@media #{$query-xxxl} {
+    .container {
+        width: $container-xxl;
+    }
+}

@@ -25,7 +25,6 @@
 /*LARGE*/
 @media #{$query-large} {
     #section1-hero .hero-mask{
-
         height: 0;
         padding-bottom: 37.5%;
         -webkit-mask-image: url(../img/mask.svg);
@@ -43,5 +42,10 @@
 
 /*XX-LARGE*/
 @media #{$query-xxl} {
+    #section1-hero .hero-mask{
+        padding-bottom: 25%;
+        -webkit-mask-image: url(../img/mask-xxl.svg);
+    }
+   
 
 }

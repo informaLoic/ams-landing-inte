@@ -5,6 +5,11 @@
 @import './base/reset';
 @import './base/typography';
 
+//components
+@import './components/cards';
+@import './components/cta';
+
+
 //layout
 @import './layout/grid';
 @import './layout/header';
