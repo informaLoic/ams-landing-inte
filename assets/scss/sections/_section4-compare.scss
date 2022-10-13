@@ -1,0 +1,37 @@
+/*MOBILE*/
+#section4-compare {
+    position: relative;
+
+    & #bg-bottom {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

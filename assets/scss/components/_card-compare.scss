@@ -1,0 +1,52 @@
+/*MOBILE*/
+#section4-compare {
+    padding-bottom: 4em;
+}
+.card-compare-container {
+    padding-top: 8em;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    
+}
+.card-compare {
+    background-color: coral;
+    width: 335px;
+    padding: 2em 15px;
+    border-radius: 19px;
+
+
+    & li {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    .card-compare {
+        width: 400px;
+    }
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}
