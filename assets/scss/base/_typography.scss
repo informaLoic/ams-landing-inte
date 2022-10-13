@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,600&family=Noto+Serif:wght@700&display=swap');
+
+/*MOBILE*/
+h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    padding: 1em 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.display-1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    padding: 0 0 2em 0;
+    max-width: 760px;
+    margin: 0 auto;
+}
+.card {
+    margin-top: 1em;
+    border-radius: 19px;
+    padding: 1em 2em;
+    box-shadow: 0px 6px 6px #25398121;
+}
+.card-title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 33px;
+    font-weight: 900;
+}
+.card-subtitle {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: $primary-blue;
+    position: relative;
+    bottom: 4px;
+    padding-left: 2em;
+}
+.card-price {
+    font-family: 'Mulish', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    font-style: italic;
+}
+.card-price span {
+    font-size: 14px !important;
+    font-weight: 200;
+}
+.card-price-subtitle {
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    font-style: italic;
+}
+.card-button {
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1em 2em;
+    border-radius: 19px;
+}
+#card-button-free {
+    color: $primary-blue;
+    border: solid 1px $primary-blue;
+}
+#card-button-premium {
+    color: #fff;
+    background-color: $yellow;
+}
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+    h1 {
+        font-size: 40px;
+        padding: 1em 0;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    .display-1 {
+        font-size: 24px;
+    }
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}

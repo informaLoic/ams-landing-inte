@@ -1,0 +1,55 @@
+/*MOBILE*/
+.card-title-display {
+    position: relative;
+}
+.card-title-display span {
+    display: block;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    z-index: -1;
+    height: 9px;
+}
+#card-title-display-free span {
+    width: 94px;
+    background-color: $secondary-blue;
+}
+#card-title-display-premium span {
+    width: 165px;
+    background-color: $yellow;
+}
+.card-title-subtitle {
+    display: flex;
+    align-items: flex-end;
+}
+.card-price-button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}
