@@ -12,6 +12,7 @@
             left: 0;
             width: 100%;
             display: flex;
+            transition: all .4s ease-in-out;
         }
     }
 
@@ -28,6 +29,10 @@
             height: 10px;
             border-radius: 100%;
             background-color: #CCCFDE;
+            cursor: pointer;
+        }
+        & .active {
+            background-color: $primary-blue;
         }
     }
 
