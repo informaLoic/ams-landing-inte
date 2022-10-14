@@ -1,5 +1,16 @@
 /*MOBILE*/
+#section6-faq {
+    padding: 4em 0;
 
+    & .questions-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    h2 {
+        padding-bottom: 2em;
+    }
+}
 
 /*SMALL*/
 @media #{$query-small} {

@@ -10,11 +10,13 @@
 @import './components/cta';
 @import './components/card-compare';
 @import './components/testimonial';
+@import './components/question';
 
 
 //layout
 @import './layout/grid';
 @import './layout/header';
+@import './layout/footer';
 
 //sections
 @import './sections/section1-hero';
@@ -22,3 +24,4 @@
 @import './sections/section3-whybecome';
 @import './sections/section4-compare';
 @import './sections/section5-testimonials';
+@import './sections/section6-faq';
