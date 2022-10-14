@@ -3,6 +3,18 @@
     background-color: $xtra-light;
     padding: 2em 0;
 
+    & .wrapper-slider-testimonials {
+        width: 100%;
+        overflow: hidden;
+
+        & .slider-testimonials {
+            position: relative;
+            left: 0;
+            width: 100%;
+            display: flex;
+        }
+    }
+
     & .testimonials-bullets {
         display: flex;
         justify-content: center;
