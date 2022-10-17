@@ -40,12 +40,17 @@
 
 /*LARGE*/
 @media #{$query-large} {
-    .list-picto {
-        display: flex;
-        justify-content: space-between;
-        padding: 4em 0 1.5em 0;
+    #section3-whybecome {
+        margin-top: 0;
 
+        .list-picto {
+            display: flex;
+            justify-content: space-between;
+            padding: 4em 0 1.5em 0;
+    
+        }
     }
+    
     
 }
 

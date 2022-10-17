@@ -12,13 +12,18 @@
 
 /*LARGE*/
 @media #{$query-large} {
-    .card-container {
-        display: flex;
-        justify-content: center;
-        gap: 45px;
-        position: relative;
-        top: -70px;
+    #section2-cards {
+        
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 45px;
+            position: relative;
+            top: -70px;
+        }
     }
+    
     
 }
 
