@@ -1,3 +1,4 @@
 import './scss/main.scss'
 
 import './js/slider.js'
+import './js/faq.js'

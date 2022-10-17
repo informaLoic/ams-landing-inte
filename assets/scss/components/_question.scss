@@ -6,6 +6,7 @@
     & .question-title-button {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         & .question-title {
             font-family: 'Mulish';
@@ -15,22 +16,27 @@
         }
         & .display-button {
             position: relative;
-            top: 8px;
+            transform-origin: center;
+            transition: all .3s ease-in-out;
+            display: block;
+            height: 16px;
+            width: 16px;
 
             & span {
                 position: absolute;
                 display: block;
                 background-color: $primary-blue;
+                transition: all .3s .3s;
             }
             & #vertical {
-                left: -6px;
-                width: 16px;
-                height: 4px;
-            }
-            & #horizontal {
-                top: -6px;
                 width: 4px;
                 height: 16px;
+                left: 6px;
+            }
+            & #horizontal {
+                width: 16px;
+                height: 4px;
+                top: 6px;
             }
         }
         
@@ -42,8 +48,13 @@
         color: $primary-blue;
         font-size: 16px;
         line-height: 1.5;
-        padding-top: 3em;
-
+        overflow: hidden;
+        height: 0;
+        transition: all .3s;
+    }
+    & .question-answer-ative {
+        height: auto;
+        padding-top: 2em;
     }
 }
 .question:hover {
