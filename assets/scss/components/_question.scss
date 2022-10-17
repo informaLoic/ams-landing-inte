@@ -51,6 +51,18 @@
         overflow: hidden;
         height: 0;
         transition: all .3s;
+
+        & span {
+            font-weight: 600;
+            padding-bottom: 1em;
+        }
+        & a {
+            color: $secondary-blue;
+            transition: all .3s;
+        }
+        & a:hover {
+            color: $primary-blue;
+        }
     }
     & .question-answer-ative {
         height: auto;
