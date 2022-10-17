@@ -1,5 +1,4 @@
 /*MOBILE*/
-
 /*SMALL*/
 @media #{$query-small} {
     
@@ -13,9 +12,8 @@
 /*LARGE*/
 @media #{$query-large} {
     #section2-cards {
-        
 
-        .card-container {
+        & .card-container {
             display: flex;
             justify-content: center;
             gap: 45px;

@@ -7,6 +7,52 @@
         top: 0;
         width: 100%;
     }
+    & .card-selector {
+        position: relative;
+        width: 300px;
+        margin: 0 auto;
+        height: 60px;
+        background-color: $xtra-light;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        & .card-selector-txt {
+            position: relative;
+            z-index: 3;
+            font-family: 'Mulish';
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            & p {
+                width: 50%;
+                text-align: center;
+            }
+
+            & .card-selector-txt-active {
+                color: #fff;
+                font-weight: 600;
+            }
+
+        }
+        & .card-selector-button {
+            position: absolute;
+            width: 50%;
+            height: 50px;
+            border-radius: 30px;
+            top: 5px;
+            transition: all .3s;
+        }
+        & .card-selector-button-premium {
+            background-color: $yellow;
+        }
+        & .card-selector-button-free {
+            background-color: $secondary-blue;
+        }
+    }
 }
 
 /*SMALL*/
@@ -16,12 +62,17 @@
 
 /*MEDIUM*/
 @media #{$query-medium} {
+    #section4-compare {
 
+        & .card-selector {
+            display: none;
+        }
+    }
 }
 
 /*LARGE*/
 @media #{$query-large} {
-
+    
     
 }
 
