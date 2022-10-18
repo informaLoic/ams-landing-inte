@@ -1,6 +1,8 @@
 /*MOBILE*/
 #section4-compare {
     position: relative;
+    padding-top: 6em;
+    padding-bottom: 4em;
 
     & #bg-bottom {
         position: absolute;
@@ -17,6 +19,7 @@
         display: flex;
         align-items: center;
         cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
 
         & .card-selector-txt {
             position: relative;
