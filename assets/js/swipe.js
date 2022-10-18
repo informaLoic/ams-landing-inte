@@ -34,13 +34,13 @@ const swipe = {
      swipeEnd: function(e){
 
         //SCROLL X :
-        if(startingX+20 < movingX){
+        if(startingX+80 < movingX){
             //console.log('right');
             swipe.cardWrapperContainer.style.left = 0;
             swipe.animateButton();
             
         }   
-        else if(startingX-20 > movingX){
+        else if(startingX-80 > movingX){
             //console.log('left');
             swipe.cardWrapperContainer.style.left = - swipe.cardWidth + 'px';
             swipe.animateButton();
@@ -48,10 +48,10 @@ const swipe = {
         }
         
         // SCROLL Y :
-        // if(startingY+20 < movingY){
+        // if(startingY+80 < movingY){
         //     console.log('down');
         // }   
-        // else if(startingY-20 > movingY){
+        // else if(startingY-80 > movingY){
         // console.log('up');
         // }
     
