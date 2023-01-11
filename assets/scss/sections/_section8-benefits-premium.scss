@@ -1,0 +1,85 @@
+/*MOBILE*/
+#section7-hero2 {
+    
+    & .hero-2 {
+
+        height: 100vh;
+        width: 100vw;
+        background-image: url(../img/bg-img-hero2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+
+        & .container {
+
+            & h1 {
+                width: 760px;
+            }
+            & h1,
+            & .display-1 {
+                text-align: left;
+            }
+            & .card-subtitle {
+                font-family: 'Mulish', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                color: #fff;
+                position: relative;
+                bottom: 4px;
+                width: 760px;
+                margin: 0 auto;
+            }
+            & .card-price {
+                font-family: 'Mulish', sans-serif;
+                font-size: 44px;
+                font-weight: 600;
+                font-style: italic;
+                color: #fff;
+                width: 760px;
+                margin: 0 auto;
+            }
+            & .card-price span {
+                font-size: 14px !important;
+                font-weight: 200;
+                color: #fff;
+                width: 760px;
+                margin: 0 auto;
+            }
+            & .cta-container {
+                width: 760px;
+                margin: 0 auto;
+                padding-top: 1em;
+            }
+        }
+
+    }
+}
+
+/*SMALL*/
+@media #{$query-small} {
+    
+}
+
+/*MEDIUM*/
+@media #{$query-medium} {
+
+}
+
+/*LARGE*/
+@media #{$query-large} {
+
+    
+}
+
+/*X-LARGE*/
+@media #{$query-xl} {
+
+    
+}
+
+/*XX-LARGE*/
+@media #{$query-xxl} {
+
+}
