@@ -15,7 +15,7 @@
         & .container {
 
             & h1 {
-                width: 760px;
+                width: 100% !important;
             }
             & h1,
             & .display-1 {
@@ -69,8 +69,21 @@
 
 /*LARGE*/
 @media #{$query-large} {
+    #section7-hero2 {
+        
+        & .hero-2 {
 
-    
+            & .container {
+
+                & h1 {
+                    width: 760px !important;
+                    margin: 0 auto;
+                }
+                
+            }
+
+        }
+    }
 }
 
 /*X-LARGE*/

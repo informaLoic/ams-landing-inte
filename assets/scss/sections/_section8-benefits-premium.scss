@@ -1,60 +1,40 @@
 /*MOBILE*/
-#section7-hero2 {
-    
-    & .hero-2 {
+#section8-benefits-premium {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    & .container-list {
+        
+        padding: .5em;
+    }
+    & ul:first-child {
+        padding-top: 2em;
+    }
+    & ul:last-child {
+        padding-bottom: 2em;
+    }
+    & ul {
+        background-color: $xtra-light;
+        & li {
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            text-align: left;
+            padding-left: .5em;
 
-        height: 100vh;
-        width: 100vw;
-        background-image: url(../img/bg-img-hero2.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        display: flex;
-        align-items: center;
-
-        & .container {
-
-            & h1 {
-                width: 760px;
+            & p {
+                font-family: 'Mulish';
+                padding: .5em 0 .5em .5em ;
             }
-            & h1,
-            & .display-1 {
-                text-align: left;
+            & .active-feature {
+                font-weight: 900;
             }
-            & .card-subtitle {
-                font-family: 'Mulish', sans-serif;
-                font-size: 16px;
-                font-weight: 600;
-                color: #fff;
-                position: relative;
-                bottom: 4px;
-                width: 760px;
-                margin: 0 auto;
-            }
-            & .card-price {
-                font-family: 'Mulish', sans-serif;
-                font-size: 44px;
-                font-weight: 600;
-                font-style: italic;
-                color: #fff;
-                width: 760px;
-                margin: 0 auto;
-            }
-            & .card-price span {
-                font-size: 14px !important;
+            & .inactive-feature {
                 font-weight: 200;
-                color: #fff;
-                width: 760px;
-                margin: 0 auto;
-            }
-            & .cta-container {
-                width: 760px;
-                margin: 0 auto;
-                padding-top: 1em;
+                color: #cbcbcb;
             }
         }
-
     }
+    
 }
 
 /*SMALL*/
@@ -69,7 +49,39 @@
 
 /*LARGE*/
 @media #{$query-large} {
+    #section8-benefits-premium {
+        & .container-list {
+            display: flex;
+            justify-content: space-between;
+            & ul {
+                width: 32%;
+                padding-top: 2em;
+                padding-bottom: 2em;
+                position: relative;
 
+                & .cube {
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    z-index: -1;
+                }
+                & .cube-topleft {
+                    top: -8px;
+                    left: -8px;
+                }
+                & .cube-botright {
+                    bottom: -8px;
+                    right: -8px;
+                }
+                & .cube-premium {
+                    background-color: $yellow;
+                }
+                & .cube-free {
+                    background-color: $secondary-blue;
+                }
+            }
+        }
+    }
     
 }
 
